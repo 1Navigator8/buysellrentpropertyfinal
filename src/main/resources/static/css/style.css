@@ -1,0 +1,26 @@
+.product:hover {
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+
+.product-link {
+    color: #013220 !important;
+    text-decoration: none
+}
+/* Стили для изменения цвета кнопки BAN при нажатии */
+.btn-warning:active {
+    background-color: darkorange; /* Цвет фона при нажатии */
+    border-color: darkorange; /* Цвет границы при нажатии */
+    color: black; /* Цвет текста при нажатии */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1;
+}
+/* Стиль для кнопки BAN при нажатии */
+.btn-warning:active {
+    background-color: darkorange;
+}
